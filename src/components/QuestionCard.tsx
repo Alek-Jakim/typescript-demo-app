@@ -11,7 +11,7 @@ type Props = {
 
 const QuestionCard: React.FC<Props> = ({ answers, callback, question, questionNumber, totalQuestions, userAnswer }) => {
     return (
-        <div>
+        <div style={{ color: '#fff' }}>
             <p className="number">Question: {questionNumber}</p>
             <p dangerouslySetInnerHTML={{ __html: question }}></p>
             <div>
