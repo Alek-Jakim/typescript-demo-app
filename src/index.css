@@ -15,3 +15,42 @@ font-family: 'Oxygen', sans-serif;
 .score {
     color: #fff
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+}
+
+.start {
+    padding: 5px 10px;
+    font-size: 1rem;
+    width: 50%;
+}
+
+.correct_answer {
+    color: lightgreen;
+}
+
+.choice {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    background: rgb(219, 190, 233);
+    color: rgb(56, 19, 56);
+    font-weight: bold;
+    border: none;
+}
